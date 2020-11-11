@@ -72,8 +72,6 @@ token_T* lexer_collect_id(lexer_T* lexer) {
         lexer_advance(lexer);
     }
 
-    lexer_advance(lexer);
-
     return init_token(TOKEN_ID, value);
 }
 
